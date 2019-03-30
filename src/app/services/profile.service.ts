@@ -37,4 +37,9 @@ export class ProfileService {
 
     return promise;
   }
-}
+
+  getRepoInfo() {
+
+  }
+
+ }

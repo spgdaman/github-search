@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormComponent } from '../form/form';
 // import { ProfileService } from '../services/profile.service';
 
 @Component({
@@ -8,6 +9,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
+
+
 
   userInfo: any;
   repoInfo: any;

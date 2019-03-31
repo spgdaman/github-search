@@ -3,12 +3,18 @@
     <a class="navbar-brand" href="#"><i class="fab fa-github"></i>search</a>
 
     <!-- Form goes here -->
-    <div class="col-lg-6 offset-md-3 center">
-      <form class="form-inline">
-        <div class="input-group input-group-md">
-          <input class="form-control" type="search" placeholder="Search profile" aria-label="Search">
+    <div class="col-lg-6 offset-md-3 container-fluid">
+      <form #searchForm='ngForm' class="form-inline">
+        <div class="form-group">
+          <input class="form-control mr-sm-2" name="username" [(ngModel)]="newUsername.username" type="text" placeholder="Search" required>
+
+          <div [hidden]="username.valid || username.pristine" class="alert alert-danger">
+            <p>Username is required</p>
+          </div>
         </div>
-        <button class="btn btn-outline-success my-2 my-md-3" type="submit">Search</button>
+
+        {{newUsername.username}}
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
 

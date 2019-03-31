@@ -1,6 +1,7 @@
 export class Users {
 
-  public username: string;
-  repository = '';
+  constructor(public username: string) {
+    username = '';
+  }
 
 }

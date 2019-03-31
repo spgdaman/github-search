@@ -1,6 +1,8 @@
 export class Repositories {
 
-    public repository: string;
-    repository = 'repos';
+    constructor(public repository: string) {
+      repository = 'repos';
+    }
+
 
 }

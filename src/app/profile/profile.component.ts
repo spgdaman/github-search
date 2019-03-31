@@ -1,10 +1,10 @@
 import { Component, OnInit } from '@angular/core';
-import { ProfileService } from '../services/profile.service';
+// import { ProfileService } from '../services/profile.service';
 
 @Component({
   selector: 'app-profile',
   templateUrl: './profile.component.html',
-  providers:[ProfileService],
+  // providers: [ProfileService],
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
@@ -12,9 +12,10 @@ export class ProfileComponent implements OnInit {
   userInfo: any;
   repoInfo: any;
 
-  constructor(profileData: ProfileService) {
-    this.userInfo = profileData.getProfileInfo();
-  }
+  // constructor(githubData: ProfileService) {
+  //   this.userInfo = githubData.getProfileInfo();
+  //   this.repoInfo = githubData.getRepoInfo();
+  // }
 
   ngOnInit() {
   }

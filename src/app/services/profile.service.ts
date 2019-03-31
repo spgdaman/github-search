@@ -15,7 +15,8 @@ export class ProfileService {
 
   constructor(private http: HttpClient) {
     console.log('Service is now ready');
-    this.username = 'spgdaman';
+    this.username = new Users('spgdaman');
+    this.repository = new Repositories('');
   }
 
   getProfileInfo() {
@@ -26,11 +27,11 @@ export class ProfileService {
       name: string;
     }
 
-    let promise = new Promise((resolve, reject)=>{
+    let promise = new Promise((resolve, reject) => {
       this.http.get<ApiResponse>(environment.apiUrl + this.username).toPromise().then(response=>{
         resolve()
       },
-      error=>{
+      error => {
 
       })
     })

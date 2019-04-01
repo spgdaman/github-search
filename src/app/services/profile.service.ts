@@ -19,28 +19,28 @@ export class ProfileService {
     this.repository = new Repositories('');
   }
 
-  getProfileInfo() {
+  // getProfileInfo() {
 
-    interface ApiResponse {
-      avatar: string;
-      login: string;
-      name: string;
-    }
+  //   interface ApiResponse {
+  //     avatar: string;
+  //     login: string;
+  //     name: string;
+  //   }
 
-    let promise = new Promise((resolve, reject) => {
-      this.http.get<ApiResponse>(environment.apiUrl + this.username).toPromise().then(response=>{
-        resolve()
-      },
-      error => {
+  //   let promise = new Promise((resolve, reject) => {
+  //     this.http.get<ApiResponse>(environment.apiUrl + this.username).toPromise().then(response=>{
+  //       resolve()
+  //     },
+  //     error => {
 
-      })
-    })
+  //     })
+  //   })
 
-    return promise;
-  }
+  //   return promise;
+  // }
 
-  getRepoInfo() {
+  // getRepoInfo() {
 
-  }
+  // }
 
  }

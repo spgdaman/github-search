@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { FormComponent } from '/../form/form';
+//import { FormComponent } from '/../form/form';
 // import { ProfileService } from '../services/profile.service';
 
 @Component({

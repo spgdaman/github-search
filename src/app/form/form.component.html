@@ -6,14 +6,14 @@
     <div class="col-lg-6 offset-md-3 container-fluid">
       <form #searchForm='ngForm' class="form-inline">
         <div class="form-group">
-          <input class="form-control mr-sm-2" name="username" [(ngModel)]="newUsername.username" type="text" placeholder="Search" required>
-
-          <div [hidden]="username.valid || username.pristine" class="alert alert-danger">
+          <input class="form-control mr-sm-2" type="text" placeholder="Search" required>
+          <!-- name="username" [(ngModel)]="newUsername.username" -->
+          <div class="alert alert-danger">
+              <!-- [hidden]="username.valid || username.pristine" -->
             <p>Username is required</p>
           </div>
         </div>
 
-        {{newUsername.username}}
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>

@@ -1,27 +1,37 @@
-# GithubSearch
+# Project Name
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.6.
+Github search
 
-## Development server
+## Project Description
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+The project is about a site where a user can search for other Github user's profiles and search for repositories as well.
 
-## Code scaffolding
+A link to the project can be found [here](https://spgdaman.github.io/github-search/).
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Overview
 
-## Build
+The user can enter a username to search on Github as shown below.
+![image](https://user-images.githubusercontent.com/7770530/55375552-46158380-5515-11e9-95fe-43ad1e7283fc.png)
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
+## Author Information
 
-## Running unit tests
+-   **Simon Gatheru Waigi** - _Initial work_ - [spgdaman](https://github.com/spgdaman).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Set up instructions
 
-## Running end-to-end tests
+Clone or download the project via the link in the description.
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
+## Technologies used
 
-## Further help
+HTML, CSS, JavaScript, Bootstrap, Angular and TypeScript.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+## Contact information
+
+-   simonwaigi@outlook.com
+
+Please make sure to update tests as appropriate.
+
+## License
+
+Copyright (c) Simon Gatheru Waigi
+This project is licensed under the [GNU Open Source License](LICENSE).
